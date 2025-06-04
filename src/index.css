@@ -1,0 +1,30 @@
+ @import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Konkhmer+Sleokchher&display=swap');
+
+ @import "tailwindcss";
+
+ @theme {
+  --color-Text: #232323;
+  --color-border: #E5E5E5;
+  --color-button: #1B2543;
+  --color-textWhite: #FFFFFF;
+  --color-Pclara: #8D8D8D;
+  --color-tag: #F6C010;
+  --color-boxText: #F7F7F7;
+
+}
+
+ :root {
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   color: #232323;
+
+ }
+
+ h1{
+  font-weight: 500;
+
+ }
+ p{
+  font-style: bold;
+ }

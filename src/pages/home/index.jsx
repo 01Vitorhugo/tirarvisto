@@ -4,6 +4,7 @@ import bruna from '../../assets/imgBruna.jpg';
 import ImageHomeCarousel from "../../components/imageHomecareousel";
 import BoxTextHome from "../../components/boxTextHome";
 import BoxProcess from "../../components/boxProcess";
+import Destination from "../../components/destination";
 
 
 export default function Home() {
@@ -11,8 +12,7 @@ export default function Home() {
   return (
     <>
 
-      <main className="flex h-lvh
-">
+      <main className="flex h-lvh">
 
         <section className="pl-15 pr-15  h-auto w-2/5">
 
@@ -55,19 +55,16 @@ export default function Home() {
             <div className="w-[30%] h-full flex flex-col border-r-1  border-Pclara">
               <h1 className="text-[44px]">509</h1>
               <p className="text-Pclara">Vistos Tirados</p>
-
             </div>
 
             <div className="w-[30%] h-full flex flex-col border-r-1 border-Pclara">
               <h1 className="text-[44px]">602</h1>
               <p className="text-Pclara">Passaportes Tirados</p>
-
             </div>
 
             <div className="w-[30%] h-full flex flex-col">
               <h1 className="text-[44px]">634</h1>
               <p className="text-Pclara">Famílias Felizes</p>
-
             </div>
 
           </section>
@@ -84,6 +81,8 @@ export default function Home() {
 
 
       <BoxProcess/>
+
+      <Destination />
 
     </>
 

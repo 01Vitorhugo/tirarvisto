@@ -21,7 +21,7 @@ export default function BoxProcess() {
             </section>
 
             <section className=" h-auto w-full mt-10 flex max-[1018px]:flex-col xl:flex-wrap">
-                <figure className="h-[304px] w-[40%] max-[1018px]:w-full max-[1018px]:h-[450px] md:h-[360px] xl:h-[460px]">
+                <figure className="h-[304px] w-[40%] max-[1018px]:w-full  md:h-[360px] xl:h-[460px]">
                     <img src={familia} alt="familia" className="h-full w-full rounded-xl" />
                 </figure>
 

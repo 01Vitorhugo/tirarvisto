@@ -6,8 +6,10 @@ export default function ImageHomeCarousel() {
     return (
 
         <section
-            style={{ backgroundImage: `url(${imageCarrousel})`, backgroundSize: "100% 100%" }}
-            className="bg-no-repeat w-[57%] h-[900px]  rounded-xl mt-5 flex flex-col justify-between items-center"
+            style={{ backgroundImage: `url(${imageCarrousel})`, backgroundSize: "cover" }}
+            className="bg-no-repeat 
+            w-[57%]
+            h-[900px] rounded-xl mt-5 flex flex-col justify-between items-center"
         >
             <article className=' h-11 p-5 flex  w-full justify-end'>
                 <Tag label="Tirar meu visto agora!" />

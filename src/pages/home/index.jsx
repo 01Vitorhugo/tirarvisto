@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
 
-      <main className="flex max-[1018px]:flex-col w-[100%] pl-10 pr-10 lg:gap-15">
+      <main className="flex max-[1018px]:flex-col w-[100%] pl-5 pr-5 lg:gap-10 md:pl-10 md:pr-10">
 
         {/* Mexzendo */}
         <section className=" h-auto w-full ">

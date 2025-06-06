@@ -5,6 +5,7 @@ import ImageHomeCarousel from "../../components/imageHomecareousel";
 import BoxTextHome from "../../components/boxTextHome";
 import BoxProcess from "../../components/boxProcess";
 import Destination from "../../components/destination";
+import PackTrip from "../../components/packTrip";
 
 
 export default function Home() {
@@ -83,6 +84,8 @@ export default function Home() {
       <BoxProcess/>
 
       <Destination />
+
+      <PackTrip/>
 
     </>
 

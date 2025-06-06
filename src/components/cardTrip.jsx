@@ -3,9 +3,9 @@ const CardTrip = ({ trips }) => (
     <>
         {trips.map((trip, index) => (
             <div key={index}
-                className="keen-slider__slide p-4 rounded-xl border-2 border-border overflow-hidden flex flex-col ">
+                className="keen-slider__slide p-4 rounded-[24px] border-2 border-border overflow-hidden flex flex-col ">
 
-                <figure className="w-full h-75  flex items-center justify-center mb-4 ">
+                <figure className="w-full h-75  flex items-center justify-center mb-4 max-[1018px]:h-50">
                     <img src={trip.image} alt={trip.title} className="object-cover rounded-xl h-full w-full" />
                 </figure>
 
@@ -66,7 +66,7 @@ const CardTrip = ({ trips }) => (
                 <article className="  mt-5 flex">
                     <div className="w-[50%] ">
                         <p className="text-Pclara">A partir de</p>
-                        <h1 className=" font-semibold text-[32px]">{trip.buy}</h1>
+                        <h1 className=" font-semibold text-[32px] max-[1018px]:text-[24px]">{trip.buy}</h1>
                     </div>
                     <div className="w-[50%]">
                         <Button label="Contratar" showImage={false} />

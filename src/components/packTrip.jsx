@@ -26,12 +26,12 @@ export default function PackTrip() {
     ];
 
     return (
-        <section className="w-full h-auto mt-15 p-15">
+        <section className="w-full h-auto mt-15 p-15 max-[1018px]:p-5">
             <Tag label="Pacotes" />
 
             <aside className="flex h-auto">
                 <article className="w-3/5">
-                    <h1 className="text-[56px]">Confira nossos pacotes</h1>
+                    <h1 className="text-[56px] max-[1018px]:text-[30px]">Confira nossos pacotes</h1>
                 </article>
 
                 <div className="flex gap-4 w-2/5 justify-end">

@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="w-full h-auto">
       <div className="max-w-screen-xl flex mx-auto py-10">
-        <div className="flex justify-between w-full max-[1447px]:flex-col">
+        <div className="flex justify-between w-full ">
           <img src={logo} alt="Logo" className="w-[152px] h-10" />
           <ul className="hidden md:flex">
             {["Home", "Quem somos", "Serviços", "Contato"].map((item, index) => (

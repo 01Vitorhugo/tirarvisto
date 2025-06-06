@@ -5,7 +5,7 @@ const CardTrip = ({ trips }) => (
             <div key={index}
                 className="keen-slider__slide p-4 rounded-[24px] border-2 border-border overflow-hidden flex flex-col ">
 
-                <figure className="w-full h-75  flex items-center justify-center mb-4 max-[1018px]:h-50">
+                <figure className="w-full h-75  flex items-center justify-center mb-4 max-[1018px]:h-50 sm:h-100">
                     <img src={trip.image} alt={trip.title} className="object-cover rounded-xl h-full w-full" />
                 </figure>
 

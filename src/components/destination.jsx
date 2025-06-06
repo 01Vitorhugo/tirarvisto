@@ -21,7 +21,7 @@ export default function Destination() {
             <section className="w-full flex justify-between mt-10">
                 <div class="relative w-[20%] h-30 border-[#8D8D8D]/50  border-t-1  rounded-tr-[400px]"></div>
                 <div class="relative w-[20%] h-22 justify-center items-center flex">
-                    <Button label="Conheça mais" showImage={false}/>
+                    <Button label="Conheça mais" showImage={false} />
                 </div>
                 <div class="relative w-[20%] h-30 border-[#8D8D8D]/50  border-t-1  rounded-tl-[400px]"></div>
             </section>

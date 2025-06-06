@@ -6,7 +6,7 @@ import ver from "../assets/verMais.png";
 export default function BoxProcess() {
 
     return (
-        <main className="h-auto p-10 mt-15">
+        <main className="h-auto p-15 mt-15">
             <Tag label="Veja como funciona" />
 
             <section className="w-full h-auto  mt-10 flex">

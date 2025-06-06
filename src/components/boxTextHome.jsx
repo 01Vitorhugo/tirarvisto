@@ -4,7 +4,7 @@ export default function BoxTextHome() {
 
     return(
         <>
-        <article className="w-full h-86 bg-boxText pl-10 ">
+        <article className="w-full h-86 bg-boxText pl-15 ">
             <section className="w-[46%] h-3/5  flex items-center ">
             <h1 className="text-[56px]">CONSULTORIA COMPLETA PARA TIRAR SEU VISTO</h1>
             </section>

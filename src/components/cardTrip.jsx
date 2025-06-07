@@ -45,7 +45,7 @@ const CardTrip = ({ trips }) => (
 
                     </div>
 
-                    <div className="w-[50%]">
+                    <div className="w-[50%]  text-center sm:text-left">
                         {trip.time === "10 dias" ? (
                             <>
                                 <p>Duration</p>

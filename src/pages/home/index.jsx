@@ -20,12 +20,12 @@ export default function Home() {
         <section className=" h-auto w-full ">
           <section className="h-auto flex flex-col lg:w-[100%] ">
             <Navbar />
-            <article className="mt-10 w-full text-[32px] md:text-[38px] lg:text-[58px]">
+            <article className="mt-10 w-full text-[32px] md:text-[38px] lg:text-[58px] mb-10">
               <h1 className="text-left ">Tire seu Visto conosco e não tenha nenhuma surpresa negativa!</h1>
             </article>
           </section>
 
-      <section className="h-auto flex max-[1199px]:flex-col border-t-2 border-border md:pt-5 md:mt-10 pt-15 gap-5 ">
+      <section className="h-auto flex max-[1199px]:flex-col border-t-2 border-border md:pt-5 md:mt-10 pt-10 gap-5 ">
             <article className="w-full text-Pclara min-[1200px]:w-[70%]">
               <p>Com uma equipe altamente treinada, nós temos todos os procedimentos para que seu processo seja o mais tranquilo e rápido.</p>
               <p className="mb-10 ">Uma consultoria completa para você e sua família não ter nenhuma preocupação na sua viagem.</p>

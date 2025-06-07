@@ -53,11 +53,11 @@ export default function PackTrip() {
                     </button>
                     <button className="hover:bg-button hover:text-white border-button border w-12 h-12 rounded-full flex items-center justify-center shadow-lg cursor-pointer" onClick={() => sliderInstance.current?.next()}>
                         <svg
-                            className="w-6 h-6 transition-colors duration-200 hover:stroke-hoverSvgColor"
+                            className="w-6 h-6 transition-colors duration-200 hover:stroke-hoverSvgColor rotate-180"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            transform="rotate(180)"
+                            
                         >
                             <path
                                 d="M20 12H4M4 12L10 6M4 12L10 18"

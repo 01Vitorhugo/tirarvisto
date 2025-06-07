@@ -7,11 +7,11 @@ export default function Button({ label, showImage = true }) {
       {label && <p className=" pl-2 pr-2 font-semibold">{label}</p>}
       {showImage && (
         <svg
-          className="w-6 h-6 transition-colors duration-200 hover:stroke-hoverSvgColor"
+          className="w-6 h-6 transition-colors duration-200 hover:stroke-hoverSvgColor rotate-180"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          transform="rotate(180)"
+
         >
           <path
             d="M20 12H4M4 12L10 6M4 12L10 18"

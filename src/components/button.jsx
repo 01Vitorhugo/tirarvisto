@@ -2,7 +2,7 @@ export default function Button({ label, showImage = true }) {
   return (
     <button className="bg-button h-14 w-auto flex items-center rounded-full py-[10px] pl-[20px] pr-[20px] gap-2 cursor-pointer 
       hover:bg-transparent border border-button text-white
-      hover:text-button"
+      hover:text-button transition duration-300"
     >
       {label && <p className=" pl-2 pr-2 font-semibold">{label}</p>}
       {showImage && (

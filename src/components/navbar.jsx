@@ -15,7 +15,7 @@ export default function Navbar() {
                 key={index}
                 className={`cursor-pointer hover:text-Pclara ${index === 0 ? "text-black font-bold hover:text-black" : ""}`}
               >
-                <a href="#" className="block py-2 px-3">{item}</a>
+                <a href="#" className="block py-2 px-3 ">{item}</a>
               </li>
             ))}
 
@@ -41,7 +41,7 @@ export default function Navbar() {
         <ul className="flex space-x-6 text-lg">
           {["Home", "Quem somos", "Serviços", "Contato"].map((item, index) => (
             <li key={index} className="cursor-pointer  transition-all">
-              <a href="#" className="block">{item}</a>
+              <a href="#" className="block text-[15px] sm:text-[18px] md:text-[24px]">{item}</a>
             </li>
           ))}
         </ul>

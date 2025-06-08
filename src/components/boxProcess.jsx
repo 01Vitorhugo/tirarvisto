@@ -28,17 +28,17 @@ export default function BoxProcess() {
                 <aside className="w-[50%] h-auto pl-10 max-[1018px]:pl-0 max-[1018px]:w-full">
                     <article className="border-b-1 border-Pclara  h-[26%] ">
                         <h1 className="text-[44px] mt-10 max-[1018px]:text-[30px]">Etapa Inicial</h1>
-                        <p className="text-Pclara mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <p className="text-Pclara mt-2 pb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     </article>
 
                     <article className="border-b-1 border-Pclara h-[26%]">
-                        <h1 className="text-[44px] mt-10 max-[1018px]:text-[30px]">Processo de Entrevista</h1>
-                        <p className="flex items-center gap-3"><img src={ver} alt="" className="h-[20px] " /> Leia mais</p>
+                        <h1 className="text-[44px] mt-10 ">Processo de Entrevista</h1>
+                        <p className="flex items-center gap-3 pb-5 lg:pb-0"><img src={ver} alt="" className="h-[20px] " /> Leia mais</p>
                     </article>
 
                     <article className="border-b-1 border-Pclara  h-[26%]">
-                        <h1 className="text-[44px] mt-10 max-[1018px]:text-[30px]">Entrega de Documentos</h1>
-                        <p className="flex items-center gap-3"><img src={ver} alt="" className="h-[20px] " /> Leia mais</p>
+                        <h1 className="text-[44px] mt-10 ">Entrega de Documentos</h1>
+                        <p className="flex items-center gap-3 pb-5 lg:pb-0"><img src={ver} alt="" className="h-[20px] " /> Leia mais</p>
                     </article>
                 </aside>
 
